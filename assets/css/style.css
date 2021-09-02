@@ -91,14 +91,10 @@ td, th {
 
 body {
   height: 100vh;
-  background-color: #cfcfcf;
+  background-color: #303030;
 }
 
 .container :hover {
   background-color: salmon;
-}
-
-.container :hover div {
-  background-color: #51ff00;
 }
 /*# sourceMappingURL=style.css.map */
