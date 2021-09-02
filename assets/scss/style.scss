@@ -35,7 +35,8 @@
 
 body{
     height: 100vh;
-    background-color: rgb(48, 48, 48);
+    // background-color: rgb(48, 48, 48);
+    background-color: rgb(245, 0, 0);
     @extend %Flex;
 }
 
