@@ -1,0 +1,53 @@
+@import "libs/reset.scss";
+
+%Flex { margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+.div1{
+    background-color: rgb(184, 81, 175);   
+}
+.div2{
+    background-color: rgb(81, 184, 184);   
+}
+
+.div3{
+    background-color: rgb(110, 184, 81);   
+}
+
+.div4{
+    background-color: rgb(214, 163, 23);   
+}
+
+.container{
+    @extend %Flex;
+    flex-wrap: wrap;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(207, 207, 207);
+    @extend %Flex;
+}
+
+.container{
+    :hover{
+        background-color: salmon;
+        div{ background-color: rgb(81, 255, 0);}
+    }  
+}
+
+
+
+
+
+

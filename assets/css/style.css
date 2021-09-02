@@ -1,0 +1,104 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /* now 1.5rem = 15px */
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+.container, body {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.div1 {
+  background-color: #b851af;
+}
+
+.div2 {
+  background-color: #51b8b8;
+}
+
+.div3 {
+  background-color: #6eb851;
+}
+
+.div4 {
+  background-color: #d6a317;
+}
+
+.container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background-color: #cfcfcf;
+}
+
+.container :hover {
+  background-color: salmon;
+}
+
+.container :hover div {
+  background-color: #51ff00;
+}
+/*# sourceMappingURL=style.css.map */
